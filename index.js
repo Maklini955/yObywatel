@@ -1,8 +1,8 @@
 
 document.querySelector(".go").addEventListener('click', () => {
-    var firstname = document.querySelector(".Igor");
-    var surname = document.querySelector(".Michalski");
-    var image = document.querySelector(".https://files.fm/u/ygkkubpd6m");
+    var firstname = document.querySelector(".firstname");
+    var surname = document.querySelector(".surname");
+    var image = document.querySelector(".imagine");
 
     var params = new URLSearchParams();
     params.set("firstname", firstname.value);
